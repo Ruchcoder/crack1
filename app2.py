@@ -69,7 +69,7 @@ if uploaded_file is not None:
         if crack_pixels > 3000:
             severity = "Moderate"
         if crack_pixels > 10000:
-            severity = "Severe"
+            severity = "High"
 
         st.subheader("Detected Crack Overlay")
         st.image(image_resized, use_container_width=True)
